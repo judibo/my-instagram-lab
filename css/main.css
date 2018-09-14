@@ -1,0 +1,78 @@
+
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  background: url("../images/bgtile.png") repeat-x;
+}
+main {
+  width: 850px;
+  margin: 100px auto;
+}
+
+.phones {
+  float: left;
+}
+
+.login {
+  width: 85px;
+  height: 40px;
+  color: white;
+  margin: 20px 0;
+  float: right;
+  border-color: #06365f;
+  border-radius: 2px;
+  background-image: linear-gradient(to bottom, #3a6790d1 0%, #06365f 100%);
+  line-height: 20px;
+}
+
+.info {
+  margin-left: 350px;
+} 
+.text {
+  position: absolute;
+  width: 450px;
+  margin: 20px 0 0 30px;
+}
+
+h1 {
+  color: #06365f;
+  width: 250px;
+}
+p {
+  font-size: 15px;
+}
+
+footer {
+  text-transform: uppercase;
+  font-size: 11px;
+  color: #1c5380;
+  font-weight: bold;
+  clear: both;
+  width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+
+ul {
+  list-style: none; 
+  margin: auto;
+  padding-top: 40px;
+}
+
+li {
+  margin: 10px;
+  display: inline;
+}
+a {
+  text-decoration: none;
+  color: #1c5380;
+}
+.copyrights {
+  color: gray;
+}
